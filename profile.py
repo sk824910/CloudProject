@@ -8,10 +8,8 @@ node = request.RawPC("node")
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
 node.routable_control_ip = "true"
 
-#node.addService(rspec.Execute(shell="/bin/sh",
-#                              command="sudo git clone https://github.com/autolab/autolab-oneclick.git"))
-#node.addService(rspec.Execute(shell="/bin/sh",
-#                              command="sudo -i && cd /autolab-oneclick && ./install.sh -l"))
+node.addService(rspec.Execute(shell="/bin/sh",
+                              command="sudo bash /local/repository/install_autolab.sh"))
 
 # Print the RSpec to the enclosing page.
 portal.context.printRequestRSpec()
