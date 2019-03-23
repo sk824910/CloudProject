@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-sudo git clone https://github.com/autolab/autolab-oneclick.git
+sudo apt-get install -y sendmail
+
+sudo git clone https://github.com/linhbngo/autolab-oneclick.git
 
 cd autolab-oneclick
 
