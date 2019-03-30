@@ -13,7 +13,6 @@ sudo apt-get install -y jq
 # the username needs to be changed
 sudo usermod -aG docker lngo
 
-cd
-git clone https://github.com/linhbngo/autolab-oneclick.git
+sudo git clone https://github.com/linhbngo/autolab-oneclick.git
 cd autolab-oneclick
-sudo bash -c 'install.sh -l'
+sudo su -c 'bash install.sh -l'
