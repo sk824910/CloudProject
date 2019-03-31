@@ -16,3 +16,6 @@ sudo usermod -aG docker lngo
 sudo git clone https://github.com/linhbngo/autolab-oneclick.git
 cd autolab-oneclick
 sudo su -c 'bash install.sh -l'
+sleep 20
+sudo su -c 'docker exec -it local_tango_1 bash -c "cd vmms ; docker build -t autograding_image ."'
+sudo su -c 'docker exec -it local_tango_1 bash -c "cd vmms/java_grader ; docker build -t java_image ."'
