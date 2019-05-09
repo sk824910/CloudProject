@@ -1,0 +1,32 @@
+Group 6
+CSC-496
+Deliverable 2
+                                                  Technical Report
+  Our cloud project we chose to do was option 3, installation and deployment. This required us to have an in-class
+demonstration on our selected computing services on local machines. What we chose to have our project focus on was the
+creation of a web server via docker, and through the docker terminal, create a simple database of our group contact
+information that we can access and edit. We’ll then be able to view the database on the web browser by visiting the page we
+create so it then can be displayed when we want to access it. Along with docker, we’re also using several other services to
+achieve our end product. We are using LAMP, which is an acronym of for the Linux operating system, Apache HTTP server, MySQL
+relational database, and PHP programming language. 
+At this point in project, we have established two docker images pulled, the first being from MySQL, and the second being from
+phpMyAdmin. At this point we have it working locally on our machines via Docker installed on our laptops and in so, reaching
+our first milestone. We initially wanted to use CloudLab and worked for quite a while using it. We ran into some unforeseen
+problems so we decided to scrap it just so we can reach the first milestone and get the ball rolling. We are attempting to go
+back to CloudLab and having it ready for our last deliverable, and ultimately setup a web server on it using MySQL and
+phpMyAdmin.
+  Our second milestone, is to automate a simple table in our database that will have our contact information. Currently, we
+were able to create via docker but we’ve encountered problems in actually creating our web interface that will directly
+communicate with our database. To date, we’ve been attempting to create the web server using Apache but all we seem to have
+been getting is the Apache Ubuntu default page. This means that our server is actually working correctly, but there is still
+work to be done before it works correctly. One of the issues we have to resolve is declaring what port to use. Usually port 80
+is the default port to use but when we attempt to use it, it says it is already in use so we have been forced to try and use
+other. Our goal is to have the web server and web interface displaying our database when we present on Thursday for live demo.
+  Our third milestone is to have our project fully up and working. To summarize, this will be automating our simple table and
+inserting in our database which will include our phone numbers and names. And to a greater extent, we will be able to edit our
+database via our terminal and then the changes will be reflected on the web server instantly. This is a fairly simple and
+straightforward project, but it hasn’t been without its issues. We have been fairly happy with the progress we’ve made and we
+confident that we can make the final deadline for our project next week. Essentially we will have a week to get our server up
+and running and have direct communication with our database and docker file. We will feel confident that the project runs
+effectively when we can edit our database on docker via the terminal, and immediately see the changes on the web server when
+we refresh the page. This seems like a very manageable task to be done in the next week.
